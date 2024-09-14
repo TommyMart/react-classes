@@ -8,6 +8,8 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
+
+        <h1>{process.env.REACT_APP_EXAMPLE_ENV}</h1>
         <PokemonFetcher />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
