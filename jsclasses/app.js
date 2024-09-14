@@ -25,7 +25,7 @@ class Dog {
     }
 
     // no function name
-    bark() {
+    bark(){
         console.log("Woof! I am a " + this.name);
         throw new BarkError(this.name, this.breed)
     }
